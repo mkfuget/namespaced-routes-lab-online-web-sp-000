@@ -1,5 +1,3 @@
-module Admin
-  class PreferencesController < ApplicationController
+  class Admin::PreferencesController < ApplicationController
 
   end
-end
