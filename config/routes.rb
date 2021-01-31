@@ -5,5 +5,8 @@ Rails.application.routes.draw do
     resources :songs, only: [:index, :show]
   end
   resources :songs
+  scope '/admin' do
+    resources :preferences
+  end
 
 end
