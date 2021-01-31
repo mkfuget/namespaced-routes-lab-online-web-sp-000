@@ -1,2 +1,5 @@
-class PreferencesController < ApplicationController
+module Admin
+  class PreferencesController < ApplicationController
+    
+  end
 end
